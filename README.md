@@ -22,6 +22,24 @@ Modern vehicles utilize CAN (Controller Area Network) bus communication to inter
 - Visual Studio Code
 - Spyder IDE
 
+## Establishing connection to instrument cluster
+**In this section I am going to describe how to connect instrument cluster to Arduino:**
+
+- Connect Pin 6 to CAN-H (use male to female jumper wire)
+- Connect Pin 7 to CAN-L (use male to female jumper wire)
+- Connect Pin 9 to 12V (use laboratory power supply if possible)
+- Connect Pin 18 to GND
+
+CAN-H and CAN-L wires should be twisted tightly together to ensure that electromagnetic interference affects the signal in both wires uniformly. Connect CAN-H and CAN-L to CAN-Bus Shield (left CAN-H, right CAN-L).
+
+Upload test sketch to Arduino Uno (included in this branch). Needles on your instrument cluster should sweep and come back to initial position.
+
+## Troubleshooting
+**There are few things that you should check if your instrument cluster is not behaving as it should:**
+
+- Cut P1 line on the backside of your CAN-Bus Shield
+- Baudrate for this type of instrument cluster should be 100KBPS
+
 ## Contributing
 Contributions to this project are welcome! If you have ideas for improvements or want to add new features, feel free to fork this repository, make your changes, and submit a pull request.
 
