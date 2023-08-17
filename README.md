@@ -1,5 +1,5 @@
 # BMW E90 instrument cluster CAN-Bus project
-**Coming soon! Stay tuned**
+**Coming soon! Stay tuned.**
 
 The BMW E90 instrument cluster project aims to interface and control the instrument cluster from a BMW E90 using a CAN-Bus Shield and an Arduino Uno. This project enables the gathering of information from the BeamNG.drive simulator and replicating the functionality on the physical instrument cluster.
 
