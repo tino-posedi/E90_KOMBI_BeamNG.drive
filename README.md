@@ -32,7 +32,7 @@ Modern vehicles utilize CAN (Controller Area Network) bus communication to inter
 
 CAN-H and CAN-L wires should be twisted tightly together to ensure that electromagnetic interference affects the signal in both wires uniformly. Connect CAN-H and CAN-L to CAN-Bus Shield (left CAN-H, right CAN-L).
 
-Upload test sketch to Arduino Uno (included in this branch). Needles on your instrument cluster should sweep and come back to initial position.
+Upload needle_sweep.ino to Arduino Uno (included in this branch). Needles on your instrument cluster should sweep and come back to initial position.
 
 ## Troubleshooting
 **There are few things that you should check if your instrument cluster is not behaving as it should:**
